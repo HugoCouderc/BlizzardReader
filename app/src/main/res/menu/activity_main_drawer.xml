@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_druid"
+            android:icon="@drawable/druid"
+            android:title="Druid" />
+        <item
+            android:id="@+id/nav_hunter"
+            android:icon="@drawable/hunter"
+            android:title="Hunter" />
+        <item
+            android:id="@+id/nav_mage"
+            android:icon="@drawable/mage"
+            android:title="Mage" />
+        <item
+            android:id="@+id/nav_paladin"
+            android:icon="@drawable/paladin"
+            android:title="Paladin" />
+
+        <item
+            android:id="@+id/nav_priest"
+            android:icon="@drawable/priest"
+            android:title="Priest" />
+
+        <item
+            android:id="@+id/nav_rogue"
+            android:icon="@drawable/rogue"
+            android:title="Rogue" />
+
+        <item
+            android:id="@+id/nav_shaman"
+            android:icon="@drawable/shaman"
+            android:title="Shaman" />
+
+        <item
+            android:id="@+id/nav_warlock"
+            android:icon="@drawable/warlock"
+            android:title="Warlock" />
+
+        <item
+            android:id="@+id/nav_warrior"
+            android:icon="@drawable/warrior"
+            android:title="Warrior" />
+    </group>
+
+
+</menu>
